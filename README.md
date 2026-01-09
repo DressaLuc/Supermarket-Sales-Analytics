@@ -1,52 +1,44 @@
-# Supermarket-Sales-Analytics
-
-# 🛒 Supermarket Sales Analytics
-
-> Análise exploratória de dados (EDA) para identificação de tendências de faturamento, performance de filiais e comportamento de consumo.
-
-## 🎯 Objetivo do Projeto
-Transformar dados transacionais em insights estratégicos para otimização de vendas e melhoria da experiência do cliente.
-
-* Analisar a performance de vendas entre as diferentes filiais (Branches).
-* Identificar as categorias de produtos com maior volume de saída e rentabilidade.
-* Avaliar o comportamento de compra de acordo com o gênero e o tipo de cliente (Member vs Normal).
+# 🛒 Supermarket Sales Analytics: Inteligência de Dados no Varejo
+**Autor:** Dra. Andressa Corrêa
+**Expertise:** Doutora em Ciências (Físicas e Biomoleculares) | Analista de Dados
 
 ---
 
-## 🏗️ Estrutura do Projeto
+## 🎯 Objetivo do Projeto
+Este projeto realiza uma Análise Exploratória de Dados (EDA) em registros transacionais de um supermercado para decodificar tendências de faturamento e comportamento de consumo. O foco é transformar dados brutos em **Insights Estratégicos** que auxiliem na otimização de vendas e na gestão de filiais.
 
-```text
-supermarket-sales-analytics/
-├── data/
-│   └── supermarket_sales.csv      # Base de dados histórica
-├── notebooks/
-│   └── supermarket_sales_eda.ipynb # Estudo e visualizações detalhadas
-└── README.md                      # Documentação e insights estratégicos
+### 🔬 Abordagem Analítica:
+- **Performance de Filiais:** Comparativo de faturamento e satisfação entre diferentes unidades (Branches).
+- **Mix de Produtos:** Identificação das categorias com maior rentabilidade e volume de giro.
+- **Storytelling de Consumo:** Análise demográfica (gênero e tipo de cliente) para entender o perfil do ticket médio.
 
-🛠️ Tecnologias Utilizadas
-Python 3.10
+---
 
-Pandas (Tratamento e limpeza de dados transacionais)
+## 🛠️ Tecnologias Utilizadas
+- **Python 3.10**
+- **Pandas:** Tratamento de dados transacionais e limpeza de séries históricas.
+- **Seaborn & Matplotlib:** Criação de visualizações de tendências e dashboards de performance.
+- **Google Colab:** Ambiente de desenvolvimento para análise exploratória.
 
-Seaborn & Matplotlib (Criação de gráficos e dashboards de vendas)
+---
 
-Google Colab (Ambiente de desenvolvimento inicial)
+## ✅ Conclusões e Insights Estratégicos
+A análise revelou padrões fundamentais para a gestão operacional:
 
-✅ Conclusões e Insights Estratégicos
-Baseado na análise exploratória realizada no notebook:
+1. **Performance Geográfica:** A **Filial C** lidera em faturamento absoluto, porém a **Filial A** mantém a melhor média de satisfação (ratings). Isso sugere que a Filial C pode ter gargalos no atendimento apesar do alto volume.
+2. **Motores de Tráfego:** A categoria *Food and Beverages* é o principal motor de fluxo. Quimicamente falando (sob a ótica de bens de consumo), são itens de alta necessidade que servem de "âncora" para outras vendas.
+3. **Poder da Fidelização:** Clientes *Member* possuem um ticket médio superior aos clientes *Normal*, confirmando que a retenção é financeiramente mais eficiente que a aquisição de novos clientes.
 
-Faturamento por Filial: A filial C apresentou o maior volume de faturamento total, enquanto a filial A se destacou na média de avaliações dos clientes.
+## 💡 Recomendações para o Negócio
+- **Conversão de Clientes:** Implementar estratégias para converter clientes "Normal" em "Member", focando no aumento do Lifetime Value (LTV).
+- **Gestão de Inventário:** Alinhamento de estoque para categorias de alto giro com base nos picos de horário identificados.
+- **Benchmark Interno:** Replicar as táticas operacionais da Filial C nas demais unidades para equilibrar o faturamento global.
 
-Linhas de Produtos: A categoria de Food and Beverages lidera em volume de vendas, mostrando-se o principal motor de tráfego das lojas.
+---
 
-Perfil de Consumo: Clientes do tipo Member realizam compras com ticket médio superior, validando a importância de programas de fidelidade.
+## 📬 Contato
 
-💡 Recomendações para o Negócio
-Fidelização: Expandir os benefícios para clientes "Normal" para convertê-los em "Member", focando no aumento do ticket médio.
+Vamos trocar insights sobre análise de dados e varejo? Me encontre aqui:
 
-Otimização de Estoque: Reforçar o abastecimento das categorias de alto giro (Alimentos) nos horários de pico identificados.
-
-Marketing Direcionado: Criar campanhas específicas para as filiais com menor faturamento, utilizando os padrões de sucesso da Filial C.
-
-📄 Licença
-Este projeto utiliza a licença MIT.
+<p align="left">
+  <a href="www.linkedin.com/in/andressa-correa-dados
