@@ -38,7 +38,14 @@ A análise revelou padrões fundamentais para a gestão operacional:
 
 ## 📬 Contato
 
-Vamos trocar insights sobre análise de dados e varejo? Me encontre aqui:
+Gostou desta análise? Vamos nos conectar no LinkedIn!
 
 <p align="left">
-  <a href="www.linkedin.com/in/andressa-correa-dados
+  <a href="https://www.linkedin.com/in/andressa-correa-dados" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white">
+  </a>
+</p>
+
+---
+📄 **Licença** Este projeto utiliza a licença MIT.
+
